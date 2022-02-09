@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Salesforce Development with Github Codespaces"
 date: 2022-02-09
 categories: Salesforce Codespaces

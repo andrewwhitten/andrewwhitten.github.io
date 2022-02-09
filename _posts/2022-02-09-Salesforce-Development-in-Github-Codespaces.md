@@ -11,12 +11,12 @@ tags: Salesforce Codespaces
 
 The idea of coding in the cloud with Salesforce is compelling for many reasons:
 
-1) Clean environment to build and run your code each time
-2) Quickly onboard new developers onto your team
-3) Rent CPU cores and RAM just for the time that you need them
-4) Use the same environment from different devices throughout the day (MacBook, Desktop PC, iPad, even your phone should you be so inclined)
-5) No need to buy an expensive and heavy new MacBook Pro with M1 Max - all the heavy lifting is now in the Cloud
-6) Faster to provision working environment for new team members
+1. Clean environment to build and run your code each time
+2. Quickly onboard new developers onto your team
+3. Rent CPU cores and RAM just for the time that you need them
+4. Use the same environment from different devices throughout the day (MacBook, Desktop PC, iPad, even your phone should you be so inclined)
+5. No need to buy an expensive and heavy new MacBook Pro with M1 Max - all the heavy lifting is now in the Cloud
+6. Faster to provision working environment for new team members
 
 Salesforce have announced their cloud based development IDE, Code Builder, way back in June 2020. Recent rumors suggested that it might see beta in Spring '22, however there is no mention of it in the new Release Notes. Additionally it isn't clear how much longer it would take to get to GA even if it was released as beta in say Summer '22.
 
@@ -58,3 +58,7 @@ The steps to get this up and running are:
 
 <img width="475" alt="Screen Shot 2022-02-09 at 12 52 22 pm" src="https://user-images.githubusercontent.com/41508645/153106958-52385109-82b4-47eb-a426-2d347db49feb.png">
 
+## Notes
+
+- This setup works well with Developer sandboxes and fake data. I would not be completely confident with a full copy sandbox with real data unless I had an Enterprise agreement with GitHub
+- Cost: I am lucky to still have the beta, but there is a cost in using CodeSpaces. At time of writing it is USD $0.36 per hour for a 4 core machine, which is pretty resonable - 10 hours of use for the price of a coffee - <A HREF='https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces'>LINK</A>

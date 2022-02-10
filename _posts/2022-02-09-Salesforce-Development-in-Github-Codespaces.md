@@ -22,9 +22,8 @@ The idea of coding in the cloud with Salesforce is compelling for many reasons:
 6. Faster to provision working environment for new team members
 		</td>
 		<td>
-			test
-		</td>
-	</tr>
+	</tr>![86E95FA6-6326-49AF-B704-E83A4949117B](https://user-images.githubusercontent.com/41508645/153485573-f7830c1e-aa52-4392-bc34-3b6df4bfdd5f.jpeg)
+</td>
 	</table>
 	
 

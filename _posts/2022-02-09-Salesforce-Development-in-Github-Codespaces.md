@@ -6,7 +6,7 @@ categories: Salesforce Codespaces
 tags: Salesforce Codespaces
 ---
 
-Salesforce has always been a 'no software' service since launch, but development environments and tools have been firmly wedded to the desktop. GitHub Codespaces now provides a true cloud development environment that requires minimal configuration to get you and your team the productivity benefits of spending your time just coding.
+Salesforce has always been a 'no software' service since launch, but development environments and tools have been firmly wedded to the desktop. GitHub Codespaces now provides a true cloud development environment that requires minimal configuration to get you and your team the productivity benefits of spending your time just coding on demand.
 
 ## Why
 
@@ -18,21 +18,21 @@ The idea of coding in the cloud with Salesforce is compelling for many reasons:
 
 1. Clean environment to build and run your code each time
 2. Quickly onboard new developers onto your team with a prepared environment
-3. Rent CPU cores and RAM just for the time that you need them - CodeSpaces will pause after a period of inactivity and start up again when required
+3. Rent CPU cores and RAM just for the time that you need them, CodeSpaces will pause after a period of inactivity and start up again when required
 4. Use the same environment from different devices throughout the day (MacBook, Desktop PC, iPad, even your phone should you be so inclined)
-5. No need to buy an expensive 'profesional' developer laptop - all the heavy lifting is now in the Cloud
+5. No need to buy an expensive 'profesional' developer laptop, all the heavy lifting is now in the Cloud
 6. Faster to provision working environment for new team members
 			
+Salesforce have <a href="https://developer.salesforce.com/blogs/2020/06/introducing-code-builder">announced their cloud based development IDE, Code Builder</a>, way back in June 2020. Recent rumors suggested that it might see beta in Spring '22, however there is no mention of it in the new Release Notes. Additionally it isn't clear how much longer it would take to get to GA even if it was released as beta in say Summer '22.
+			
+As compelling as Code Builder might sound, GitHub has been offering and improving their equivalent Codespaces product for a while now, and although it isn't designed for Salesforce, it works well with most coding requirements today.		
 		</td>
 		<td>
 			<img src="https://user-images.githubusercontent.com/41508645/153485573-f7830c1e-aa52-4392-bc34-3b6df4bfdd5f.jpeg">
-		</td> 
+		</td>
 	</tr>
 </table>
 
-Salesforce have <a href="https://developer.salesforce.com/blogs/2020/06/introducing-code-builder">announced their cloud based development IDE, Code Builder</a>, way back in June 2020. Recent rumors suggested that it might see beta in Spring '22, however there is no mention of it in the new Release Notes. Additionally it isn't clear how much longer it would take to get to GA even if it was released as beta in say Summer '22.
-			
-As compelling as Code Builder might sound, GitHub has been offering and improving their equivalent Codespaces product for a while now, and although it isn't designed for Salesforce, it works well with most coding requirements today.
 
 ## Pre-requisites
 

@@ -25,13 +25,14 @@ The idea of coding in the cloud with Salesforce is compelling for many reasons:
 			
 Salesforce have <a href="https://developer.salesforce.com/blogs/2020/06/introducing-code-builder">announced their cloud based development IDE, Code Builder</a>, way back in June 2020. Recent rumors suggested that it might see beta in Spring '22, however there is no mention of it in the new Release Notes. Additionally it isn't clear how much longer it would take to get to GA even if it was released as beta in say Summer '22.
 
-As compelling as Code Builder might sound, GitHub has been offering and improving their equivalent Codespaces product for a while now, and although it isn't designed for Salesforce, it basically works well with most coding requirements today.
 		</td>
 		<td>
 			<img src="https://user-images.githubusercontent.com/41508645/153485573-f7830c1e-aa52-4392-bc34-3b6df4bfdd5f.jpeg">
 		</td> 
 	</tr>
 </table>
+
+As compelling as Code Builder might sound, GitHub has been offering and improving their equivalent Codespaces product for a while now, and although it isn't designed for Salesforce, it works well with most coding requirements today.
 
 ## Pre-requisites
 
@@ -80,4 +81,5 @@ The steps to get this up and running are:
 - This setup works well with Developer sandboxes and fake data. I would not be completely confident with a full copy sandbox with real data unless I had an Enterprise agreement with GitHub
 - You will have to use GitHub as your source control. You could possibly add another to synronize to, but that sounds like too hard work
 - Cost: I am lucky to still have the beta, but there is a cost in using CodeSpaces. At time of writing it is USD $0.36 per hour for a 4 core machine, which is pretty resonable - 10 hours of use for the price of a coffee - <A HREF='https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces'>LINK</A>
+- Capability - This is NOT the Visual Studio Code for the Web product. It is a full version of Visual Studio Code running on Linux
 - Picture is my iPad in the park running my VS Code in the Cloud

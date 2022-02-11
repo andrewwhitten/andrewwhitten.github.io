@@ -7,6 +7,8 @@ tags: Salesforce Codespaces
 author: Andrew Whitten
 ---
 
+ga('create', '{{ site.google_analytics }}', 'auto');
+
 *11th February 2022 - Andrew Whitten*
 
 <table>

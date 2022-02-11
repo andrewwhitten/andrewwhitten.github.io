@@ -1,5 +1,3 @@
-# Blog Posts for Salesforce, Mulesoft & Heroku
-
 <ul>
   {% for post in site.posts %}
     <li>

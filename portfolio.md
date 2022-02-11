@@ -4,15 +4,23 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Github Pages Posts
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }} - {{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
 
 
-[jekyll-organization]: https://github.com/jekyll
+## Older Posts
+
+I wrote a number of articles at Wordpress - https://andrewwhitten.wordpress.com/ . Some that may be of interest are:
+
+- Things to know about Permissions before starting Salesforce Functions - <a href="https://andrewwhitten.wordpress.com/2021/11/25/things-to-know-about-permissions-before-starting-salesforce-functions/">LINK</a>
+- Salesforce LWC inheritance and code sharing - <a href="https://andrewwhitten.wordpress.com/2021/05/12/salesforce-lwc-inheritance-and-code-sharing/">LINK</A>
+- Data Quality Analysis in Salesforce files with MuleSoft Anypoint - <a href="https://andrewwhitten.wordpress.com/2021/02/13/analyze-files-in-salesforce-with-mulesoft-anypoint/">LINK</A>
+- Creating a Salesforce Permission Set subset from multiple Profiles - <a href="https://andrewwhitten.wordpress.com/2020/12/29/creating-a-salesforce-permission-set-subset-from-multiple-profiles/">LINK</a>

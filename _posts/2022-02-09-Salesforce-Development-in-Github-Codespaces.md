@@ -9,7 +9,7 @@ author: Andrew Whitten
 
 ga('create', '{{ site.google_analytics }}', 'auto');
 
-*11th February 2022 - Andrew Whitten*
+*11th February 2022 - {{ page.author }}
 
 <table>
 	<tr>

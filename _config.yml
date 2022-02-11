@@ -8,5 +8,11 @@ header_pages:
   - about.md
   - portfolio.md
   
+# generate social links in footer
+social_links:
+    twitter: andrew_w_cloud
+    github:  andrewwhitten
+    linkedin: jekyll
+  
 title: Cloud Architecture
 author: Andrew Whitten

@@ -2,6 +2,8 @@ theme: minima
 google_analytics: G-HGTXJ5KGEF
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
+show_excerpts: true
+
 header_pages:
   - about.md
   - portfolio.md

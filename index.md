@@ -1,7 +1,7 @@
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{% raw %} {{ page.date | date: "%B" }} {{ page.date | date: "%d" | plus:'0' }}, {{ page.date | date: "%Y" }} {% endraw %} - {{ post.title }}</a>
+      <a href="{{ post.url }}">{{ page.date | date: "%B" }} {{ page.date | date: "%d" | plus:'0' }}, {{ page.date | date: "%Y" }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

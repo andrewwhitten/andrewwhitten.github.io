@@ -2,7 +2,7 @@ theme: minima
 google_analytics: G-HGTXJ5KGEF
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
-show_excerpts: true
+show_excerpts: false
 
 header_pages:
   - about.md

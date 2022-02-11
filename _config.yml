@@ -2,5 +2,17 @@ theme: minima
 google_analytics: G-HGTXJ5KGEF
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
+show_excerpts: true
+
+header_pages:
+  - about.md
+  - portfolio.md
+  
+# generate social links in footer
+social_links:
+    twitter: andrew_w_cloud
+    github:  andrewwhitten
+    linkedin: jekyll
+  
 title: Cloud Architecture
 author: Andrew Whitten

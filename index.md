@@ -1,14 +1,11 @@
-ga('create', '{{ site.google_analytics }}', 'auto');
-
-# Blog Posts for Salesforce, Mulesoft & Heroku
-
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
 
 
 ### Older Posts

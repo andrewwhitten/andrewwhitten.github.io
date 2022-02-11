@@ -1,5 +1,3 @@
-ga('create', '{{ site.google_analytics }}', 'auto');
-
 # Blog Posts for Salesforce, Mulesoft & Heroku
 
 <ul>

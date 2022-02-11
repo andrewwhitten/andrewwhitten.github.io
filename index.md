@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 Articles by Andrew Whitten about:
 
 - Cloud Architecture

@@ -21,7 +21,7 @@ author: Andrew Whitten
 comments:
   provider: "disqus" 
   disqus:
-    shortname: https-andrewwhitten-github-io-1
+    shortname: https-andrewwhitten-github-io
  
 url: https://andrewwhitten.github.io
 

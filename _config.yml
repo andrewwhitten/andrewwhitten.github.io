@@ -17,3 +17,7 @@ minima:
   
 title: Cloud Architecture
 author: Andrew Whitten
+
+disqus:
+  shortname: https-andrewwhitten-github-io-1
+

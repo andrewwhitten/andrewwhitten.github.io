@@ -19,6 +19,7 @@ title: Cloud Architecture
 author: Andrew Whitten
 
 comments:
+  provider: "disqus" 
   disqus:
     shortname: https-andrewwhitten-github-io-1
  

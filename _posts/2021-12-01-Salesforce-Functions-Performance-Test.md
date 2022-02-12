@@ -5,6 +5,7 @@ date: 2021-12-01
 categories: Salesforce Functions
 tags: Salesforce Functions
 author: Andrew Whitten
+comments: true
 ---
 
 # Slow Code Test

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 Articles by Andrew Whitten about:

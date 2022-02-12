@@ -9,7 +9,8 @@ header_pages:
   - portfolio.md
   
 # generate social links in footer
-social_links:
+minima:
+  social_links:
     twitter: andrew_w_cloud
     github:  andrewwhitten
    # linkedin: jekyll
